@@ -1,0 +1,62 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: black;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.box h1 {
+    color: aquamarine;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 50%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.welcome{
+    background-image: url(img/bgg.jpg);
+}
+
+.welcome h1{
+    color: coral;
+    font-size: 200px;
+    text-align: center;
+}
+
+#message{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
